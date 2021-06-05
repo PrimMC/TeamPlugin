@@ -1,9 +1,9 @@
-package com.github.pjungmin.teamplugin;
+package com.github.primmc.teamplugin;
 
-import com.github.pjungmin.teamplugin.command.CommandListener;
-import com.github.pjungmin.teamplugin.command.CommandService;
-import com.github.pjungmin.teamplugin.listener.TeamEventListeners;
-import com.github.pjungmin.teamplugin.team.TeamDataService;
+import com.github.primmc.teamplugin.command.CommandListener;
+import com.github.primmc.teamplugin.command.CommandService;
+import com.github.primmc.teamplugin.listener.TeamEventListeners;
+import com.github.primmc.teamplugin.team.TeamDataService;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class TeamPlugin extends JavaPlugin {

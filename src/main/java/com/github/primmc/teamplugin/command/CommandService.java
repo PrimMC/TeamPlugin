@@ -1,7 +1,6 @@
-package com.github.pjungmin.teamplugin.command;
+package com.github.primmc.teamplugin.command;
 
-import com.github.pjungmin.teamplugin.TeamPlugin;
-import com.github.pjungmin.teamplugin.team.TeamDataService;
+import com.github.primmc.teamplugin.team.TeamDataService;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
@@ -12,10 +11,9 @@ import org.bukkit.scoreboard.Scoreboard;
 import org.bukkit.scoreboard.Team;
 
 import java.util.Collection;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 
-import static com.github.pjungmin.teamplugin.TeamPlugin.TEAM_CHAT;
+import static com.github.primmc.teamplugin.TeamPlugin.TEAM_CHAT;
 import static org.bukkit.ChatColor.*;
 
 public class CommandService {

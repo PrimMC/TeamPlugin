@@ -1,4 +1,4 @@
-package com.github.pjungmin.teamplugin.command;
+package com.github.primmc.teamplugin.command;
 
 import org.bukkit.command.CommandSender;
 

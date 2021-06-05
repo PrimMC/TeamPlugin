@@ -1,7 +1,5 @@
-package com.github.pjungmin.teamplugin.command;
+package com.github.primmc.teamplugin.command;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

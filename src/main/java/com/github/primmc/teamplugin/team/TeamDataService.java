@@ -1,4 +1,4 @@
-package com.github.pjungmin.teamplugin.team;
+package com.github.primmc.teamplugin.team;
 
 import org.bukkit.Location;
 

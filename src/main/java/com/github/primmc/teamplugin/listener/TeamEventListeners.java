@@ -1,17 +1,14 @@
-package com.github.pjungmin.teamplugin.listener;
+package com.github.primmc.teamplugin.listener;
 
-import com.github.pjungmin.teamplugin.TeamPlugin;
-import com.github.pjungmin.teamplugin.team.TeamDataService;
+import com.github.primmc.teamplugin.team.TeamDataService;
 import lombok.RequiredArgsConstructor;
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
 import org.bukkit.event.player.PlayerRespawnEvent;
-import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.scoreboard.Scoreboard;
 import org.bukkit.scoreboard.Team;
 
@@ -19,7 +16,7 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static com.github.pjungmin.teamplugin.TeamPlugin.TEAM_CHAT;
+import static com.github.primmc.teamplugin.TeamPlugin.TEAM_CHAT;
 import static org.bukkit.ChatColor.GRAY;
 import static org.bukkit.ChatColor.RESET;
 
